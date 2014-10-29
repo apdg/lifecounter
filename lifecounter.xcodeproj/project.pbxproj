@@ -14,6 +14,8 @@
 		36FC613619FF4D86009ACE25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FC613519FF4D86009ACE25 /* Images.xcassets */; };
 		36FC613919FF4D86009ACE25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36FC613719FF4D86009ACE25 /* LaunchScreen.xib */; };
 		36FC614519FF4D86009ACE25 /* lifecounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FC614419FF4D86009ACE25 /* lifecounterTests.m */; };
+		36FC615019FF7874009ACE25 /* ajani.png in Resources */ = {isa = PBXBuildFile; fileRef = 36FC614E19FF7874009ACE25 /* ajani.png */; };
+		36FC615119FF7874009ACE25 /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36FC614F19FF7874009ACE25 /* dragon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		36FC613E19FF4D86009ACE25 /* lifecounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifecounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FC614319FF4D86009ACE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FC614419FF4D86009ACE25 /* lifecounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lifecounterTests.m; sourceTree = "<group>"; };
+		36FC614E19FF7874009ACE25 /* ajani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ajani.png; sourceTree = "<group>"; };
+		36FC614F19FF7874009ACE25 /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		36FC612819FF4D86009ACE25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36FC614E19FF7874009ACE25 /* ajani.png */,
+				36FC614F19FF7874009ACE25 /* dragon.jpg */,
 				36FC612919FF4D86009ACE25 /* Info.plist */,
 				36FC612A19FF4D86009ACE25 /* main.m */,
 			);
@@ -200,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				36FC613419FF4D86009ACE25 /* Main.storyboard in Resources */,
+				36FC615119FF7874009ACE25 /* dragon.jpg in Resources */,
 				36FC613919FF4D86009ACE25 /* LaunchScreen.xib in Resources */,
 				36FC613619FF4D86009ACE25 /* Images.xcassets in Resources */,
+				36FC615019FF7874009ACE25 /* ajani.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 				INFOPLIST_FILE = lifecounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +367,7 @@
 				INFOPLIST_FILE = lifecounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
